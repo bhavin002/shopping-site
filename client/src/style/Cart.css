@@ -1,0 +1,45 @@
+.containerCart {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 24rem;
+}
+
+.fixed-top {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.scrollable-content {
+    flex: 1;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 10px;
+}
+
+.fixed-bottom {
+    position: sticky;
+    bottom: 0;
+    background-color: #fff;
+    padding: 10px;
+
+}
+
+.fixed-top p {
+    font-size: 23px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.corder{
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 9px;
+    border: 2px solid white;
+}

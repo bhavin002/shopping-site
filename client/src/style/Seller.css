@@ -1,0 +1,82 @@
+.btnSpan {
+    border: 2px solid #d2eafc;
+    font-size: 20px;
+    padding: 5px 50px 5px 50px;
+    border-radius: 5px;
+    background-color: #2a3757;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+.sellerTitle {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+
+.btnSeller {
+    background-color: #ffc107;
+    border: 2px solid #d2eafc;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 10px 70px 10px 70px;
+    border-radius: 10px;
+}
+
+.btnSellerLogin {
+    background-color: rgb(77, 77, 229);
+    border: 2px solid #d2eafc;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 10px 70px 10px 70px;
+    border-radius: 10px;
+    color: white;
+    margin-left: 20px;
+}
+
+.bestSellerImg {
+    border: 5px solid maroon;
+    border-radius: 9px;
+}
+
+.bestSellerDescription {
+    font-size: 16px;
+    color: gray;
+}
+
+.bestSellerName {
+    font-size: 25px;
+    border-bottom: 2px solid maroon;
+    border-top: 2px solid maroon;
+}
+
+.testimonialCard {
+    border: 2px solid maroon;
+    border-radius: 9px;
+    padding: 20px;
+}
+
+.btnAc {
+    background-color: #2a3757;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 9px;
+    font-size: 18px;
+}
+
+.listingBox{
+    height: 300px;
+    overflow-y: scroll;
+    box-shadow: rgb(246, 242, 242) 0px 2px 8px 0px;
+    background-color: rgb(255, 255, 255);
+    border: 4px solid rgb(246, 242, 242);
+    overflow-x: hidden;
+    position: relative;
+}
+
+.boxHeadings{
+    box-shadow: rgb(246, 242, 242) 0px 2px 8px 0px;
+    border: 4px solid rgb(246, 242, 242);
+}

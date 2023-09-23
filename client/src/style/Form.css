@@ -1,0 +1,39 @@
+.logo{
+    font-size: 30px;
+    margin: 0px 0px 20px 0px;
+    border-bottom: 2px solid #2a3757;
+}
+
+.form{
+    width: 60%;
+    height: 100%;
+}
+label{
+    font-size: 20px;
+    margin: 13px 0px 13px 0px;
+}
+
+.btnLogin{
+    background-color:#2a3757;
+    color: white;
+    padding:5px 5px;
+    border-radius: 9px;
+    font-size: 18px;
+}
+.btnRegister{
+    background-color:#2a3757;
+    color: white;
+    padding:5px 5px;
+    border-radius: 9px;
+    font-size: 18px;
+}
+
+@media (max-width:450px) {
+    .form{
+        width: 100%;
+    }
+    label{
+        font-size: 20px;
+        margin: 13px 0px 13px 0px;
+    }
+}

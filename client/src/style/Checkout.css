@@ -1,0 +1,78 @@
+.delivertTitle {
+    border-bottom: 2px solid gray;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    padding: 0px 30px 0px 0px;
+    font-weight: bold;
+}
+
+form label,
+form input {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.corderBtn,
+.paymentLabel {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.order_summary {
+    width: 100%;
+    max-height: 250px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 2px;
+    padding: 10px 10px -1px 10px;
+}
+
+
+.subTotal {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 2px;
+    padding: 10px;
+}
+
+.subTotal p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+}
+
+
+.paymentBtns:disabled{
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    background-color: gray;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 9px;
+    border: 2px solid white;
+    margin: 20px 0px 20px 0px;
+}
+
+.paymentBtns:not(:disabled){
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 9px;
+    border: 2px solid white;
+    margin: 20px 0px 20px 0px;
+}
+
+.paymentCard {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 2px;
+    padding: 10px 20px 20px 20px;
+    margin-top: 20px;
+}
+
+.paymentCard .cardTitle{
+    font-size: 22px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: gray;
+    border-bottom: 2px solid gray;
+}

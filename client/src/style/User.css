@@ -1,0 +1,130 @@
+.userLink {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.userLink:hover {
+    color: #2a3757;
+    border-bottom: 1px solid #2a3757;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    border: 2px solid #2a3757;
+    list-style-type: none;
+    padding: 20px 50px 20px 50px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 9px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a.userLink.active {
+    padding: 0;
+    color: #2a3757;
+    border-bottom: 1px solid #2a3757;
+}
+
+.heading {
+    background-color: #2a3757;
+    color: white;
+    font-size: 30px;
+    margin: 30px 10px 30px 10px;
+    text-align: center;
+    padding: 15px 0px 10px 0px;
+    border-radius: 9px;
+}
+
+.logoutLi {
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.logoutLink {
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+}
+
+.logoutLink:hover {
+    color: red;
+}
+
+.addressBox {
+    width: 100%;
+    height: 250px;
+    border: 2px dashed #2a3757;
+    border-radius: 9px;
+}
+
+.existAddressBox {
+    width: 300px;
+    height: 250px;
+    border: 2px solid #2a3757;
+    border-radius: 9px;
+}
+
+.paymentBox {
+    width: 100%;
+    height: 300px;
+    border: 2px dashed #2a3757;
+    border-radius: 9px;
+}
+
+.existPaymentBox {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #2a3757;
+    border-radius: 9px;
+}
+
+.existAddressBox b {
+    font-size: 20px;
+}
+
+.existAddressBox p {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.plus {
+    font-size: 50px;
+    font-weight: bolder;
+    color: #2a3757;
+}
+
+.btnAdd {
+    background-color: #2a3757;
+    color: white;
+    border-radius: 9px;
+    padding: 5px 10px 5px 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+.logoNew {
+    font-size: 30px;
+    font-weight: bolder;
+    border-bottom: 2px solid #2a3757;
+}

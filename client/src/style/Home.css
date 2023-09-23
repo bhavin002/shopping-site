@@ -1,0 +1,134 @@
+div.active.carousel-item {
+    padding: 0;
+}
+
+
+.product_card img {
+    background-color: rgb(208, 182, 182);
+    border-radius: 9px;
+    border: 3px solid #fafafa;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+div.col-3.product_card {
+    position: relative;
+}
+
+div.titleofproduct {
+    position: absolute;
+    top: 245px;
+    left: 72px;
+    margin-top: 14px;
+    padding: 0px 20px 0px 20px;
+    border-radius: 10px;
+    background-color: rgb(155, 85, 85);
+    color: white;
+    font-weight: bolder;
+}
+
+p {
+    margin: 0;
+}
+
+p.nameofproduct {
+    font-size: 16px;
+    margin-top: 15px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.price {
+    position: absolute;
+    top: 308px;
+    left: 200px;
+    font-weight: bolder;
+}
+
+div.btnCart button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(208, 182, 182);
+    color: black;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 3px solid white;
+}
+
+.product_card img:hover {
+    padding: 20px;
+    transition: .2s ease-in-out;
+}
+
+.bottomCard {
+    background-color: #fafafa;
+    border: 2px solid rgb(155, 85, 85);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+div.btnCart button:hover {
+    font-size: 22px;
+    transition: .1s ease-in-out;
+}
+
+.video-frame video {
+    cursor: pointer;
+}
+
+.video-frame video::-webkit-media-controls-start-playback-button,
+.video-frame video::-webkit-media-controls-enclosure,
+.video-frame video::-webkit-media-controls-panel {
+    display: none !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
+
+.video-frame video::-webkit-media-controls,
+.video-frame video::-webkit-media-controls-overflow-button {
+    display: none !important;
+}
+
+.videosRow {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.scroll-container {
+    overflow-y: hidden;
+    position: relative;
+}
+
+.scroll-content {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding-right: 17px;
+    /* Adjust for scrollbar width */
+}
+
+.scroll-content::-webkit-scrollbar {
+    width: 0;
+    /* Hide scrollbar on WebKit-based browsers */
+    background-color: transparent;
+}
+
+.scroll-content::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.scroll-content::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.eBestsellers {
+    border-bottom: 2px solid rgb(230, 169, 169);
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}

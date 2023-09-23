@@ -1,0 +1,12 @@
+# Ignore node_modules directory in root
+node_modules/
+
+# Ignore build output (if applicable)
+/build/
+
+# Ignore environment-specific files
+.env
+.env.local
+
+# Ignore node_modules directory within server folder
+/server/node_modules/

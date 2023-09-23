@@ -1,0 +1,34 @@
+.boxOfsteps {
+    border: 2px solid #2a3757;
+    border-radius: 9px;
+    padding: 20px;
+    background-color: rgb(240, 238, 238);
+}
+
+.boxOfsteps p {
+    font-size: 18px;
+}
+
+.boxOfsteps .provided {
+    border: 2px solid black;
+    padding: 2px 15px;
+    border-radius: 9px;
+    margin: 5px 0px;
+    background-color: rgb(208, 205, 205);
+}
+
+.sideSteps {
+    border: 2px solid #2a3757;
+    border-radius: 9px;
+    padding: 30px 10px 30px 10px;
+    background-color: rgb(251, 250, 250);
+}
+
+.boxOfsteps .verified{
+    border: 2px solid white;
+    color: white;
+    padding: 2px 15px;
+    border-radius: 9px;
+    margin: 5px 0px;
+    background-color: green;
+}
